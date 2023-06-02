@@ -21,7 +21,7 @@ body {
 }
 
 .btn-damen {
-  background-color: rgba(255, 255, 255, 0.119);
+  background-color: rgba(0, 0, 0, 0.432);
   border: 2px solid white;
   padding: 10px 15px;
   font-size: 17px;
@@ -29,7 +29,7 @@ body {
   border-radius: 5px;
 }
 .btn-damen:hover {
-  background-color: rgba(255, 255, 255, 0.445);
+  background-color: rgba(255, 255, 255, 0.119);
   border: 2px solid white;
 }
 
@@ -39,11 +39,11 @@ body {
 }
 
 .card-top {
-  background-color: rgba(255, 255, 255, 0.333);
+  background-color: rgba(0, 0, 0, 0.432);
   padding: 30px;
   border-radius: 20px;
   margin-bottom: 50px;
-  color: black;
+  color: white;
 }
 .card-top > :nth-child(1) {
   color: gold;
@@ -67,7 +67,7 @@ body {
   width: 300px;
   padding: 10px 10px;
   font-size: 18px;
-  background-color: rgba(255, 255, 255, 0.119);
+  background-color: rgba(0, 0, 0, 0.432);
   color: white;
   border: 1px solid white;
   outline: none;
@@ -82,12 +82,13 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px 0;
+  padding-top: 0;
 }
 .card-search-info .search-info {
   width: 400px;
   padding: 30px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.119);
+  background-color: rgba(0, 0, 0, 0.432);
 }
 
 .loader {
