@@ -64,7 +64,7 @@ body {
 .form-input #input-search,
 .form-input #input-com {
   border-radius: 5px;
-  width: 300px;
+  width: 100%;
   padding: 10px 10px;
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.432);
@@ -115,6 +115,18 @@ body {
   }
   100% {
     transform: translateX(150%) rotate(360deg);
+  }
+}
+@media screen and (max-width: 600px) {
+  #text-reklama {
+    font-size: 13px;
+  }
+  .formDiv input,
+  .btn-damen {
+    font-size: 12px !important;
+  }
+  #damain-text {
+    font-size: 14px !important;
   }
 }
 
